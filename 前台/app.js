@@ -5,9 +5,9 @@ App({
     navTop: "",
     windowHeight: "",
     windowWidth: "",
-    // url: "http://10.5.71.89:8081/wx",
-    url: "http://10.5.68.129:8081/wx",
-    imageUrl: "https://1538933906.oss-accelerate.aliyuncs.com/"
+    // url: "http://127.0.0.1:8081/wx",
+    url: "http://127.0.0.1:8081/wx",//服务器地址需要带 /wx
+    imageUrl: "https://*.oss-accelerate.aliyuncs.com/"//修改成oss地址,不然无法查看图片
   },
   onLaunch: function () {
     // wx.setEnableDebug({
